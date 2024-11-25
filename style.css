@@ -1,7 +1,45 @@
 body{
     overflow-x: hidden;
+    padding: 40px;
 }
 *{
     padding: 0;
     margin: 0;
+}
+.recipe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.recipe ul{
+   
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+.input{
+    border-radius: 25px;
+    padding: 12px 24px;
+    border: none;
+    background-color: #150b2b0d;
+    margin-right: 10px;
+    
+    
+}
+.input i{
+    align-items: center;
+    color: #150b2bb3;
+}
+.search-1{
+    border: none;
+    background-color: transparent;
+    padding-left: 8px;
+    font-size: 16px;
+}
+.search{
+    display: flex;
+    align-items: center;
 }
