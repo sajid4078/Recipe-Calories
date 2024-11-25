@@ -43,3 +43,54 @@ body{
     display: flex;
     align-items: center;
 }
+/* banner start */
+.banner h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.banner p{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+
+
+.btn-2{
+    height:65px;
+    width:187px;
+    background-color: #0BE58A;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    margin-right: 24px;
+    font-weight: 500;
+}
+
+.btn{
+    height:65px;
+    width:187px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+    
+    font-weight: 500;
+    margin-right: 24px;
+}
+
+
+.background{
+    background-image: url(img/Rectangle\ 1\ \(7\).png);
+    background-repeat: no-repeat;
+    height: 100vh;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+
+}
